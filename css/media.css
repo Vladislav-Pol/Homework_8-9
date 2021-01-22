@@ -1,0 +1,185 @@
+@media (max-width: 1024px){
+    .header .welcome h1 {
+        font-size: 58px;
+    }
+    .logos .container img {
+        height: 40px;
+    }
+}
+@media (max-width: 768px) {
+
+    .nav_toggle{
+        display: inline-block;
+        position: relative;
+    }
+    .nav_toggle:focus{
+        outline: none;
+    }
+    #nav_toggle:checked ~ .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav .menu{
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #000;
+        opacity: 0.85;
+        padding: 7%;
+        min-width: 200px;
+        height: 100%;
+    }
+
+    .header .nav a:not(:last-child){
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+    .nav_toggle label{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+    .header .nav .menu{
+        display: none;
+    }
+    .logos .container img {
+        padding-top: 20px;
+        width: 45%;
+        height: unset;
+    }
+    .logos .container {
+        flex-wrap: wrap;
+    }
+    .our_team .section {
+        flex-wrap: wrap;
+    }
+    .our_team .section .our_team_block:not(:last-child){
+        margin-bottom: 40px;
+    }
+    .wrapper:nth-child(n)>div:nth-child(n){
+        border-right: none;
+    }
+    .wrapper .about_us_block:nth-child(2n){
+        display: none;
+    }
+    .about_us_block {
+        width: unset;
+    }
+    .about_us .wrapper:nth-child(n) .about_us_block img{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .about_us .wrapper:last-child .about_us_block{
+        margin-left: 40px;
+    }
+    .portfolio .container .portfolio_block {
+        width: 48%;
+    }
+    .header .welcome h1 {
+        font-size: 42px;
+    }
+    .header .welcome h2 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 425px) {
+
+    .header .welcome h2 {
+        font-size: 30px;
+    }
+    .header .welcome h1 {
+        font-size: 36px;
+    }
+    .services.container {
+        margin-top: 60px;
+    }
+    .services .section {
+        margin-top: 50px;
+    }
+    .services .section {
+        flex-direction: column;
+    }
+    .services .services_block:not(:last-child) {
+        margin-bottom: 3em;
+    }
+    .portfolio .container {
+        margin-top: 60px;
+        padding: 60px 0;
+    }
+    .portfolio .section {
+        justify-content: space-around;
+    }
+    .portfolio .container .portfolio_block {
+        width: auto;
+    }
+    .about_us {
+        margin-top: 60px;
+    }
+    .about_us .section {
+        margin-top: 40px;
+    }
+    .about_us_block {
+        flex-direction: column-reverse;
+    }
+    .about_us_block {
+        padding-bottom: 40px;
+    }
+    .about_us .wrapper:nth-child(n) .about_us_block div {
+        text-align: center;
+    }
+    .about_us .wrapper:nth-child(n) .about_us_block img {
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .about_us .wrapper:last-child .about_us_block .img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about_us .wrapper:last-child .about_us_block {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .our_team {
+        padding: 60px 0;
+    }
+    .container .title {
+        font-size: 26px;
+    }
+    .contact form input:not(:last-child) {
+    margin-bottom: 0;
+    }
+    .contact form input, .contact form textarea {
+        margin-top: 20px;
+    }
+    .contact .form_input {
+        flex-direction: column;
+    }
+    .contact form .input, .contact form textarea {
+        width: unset;
+    }
+    .contact .container form button {
+        padding: 15px 25px;
+    }
+    .footer .container>div {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .footer .container {
+        flex-direction: column;
+    }
+    .footer .container div:nth-child(3){
+        display: none;
+    }
+    .container {
+        width: 80%;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        width: 90%;
+    }
+}
